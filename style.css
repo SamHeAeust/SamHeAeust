@@ -1,0 +1,9 @@
+body{background-color: bisque;
+font-family: 'Courier New', Courier, monospace;    
+}
+#container{
+    margin:0 auto;
+    width: 980px;
+    
+}
+

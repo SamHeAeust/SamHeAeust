@@ -1,0 +1,2 @@
+git config --global user.name "SamHeAeust"
+git config --global user.email 110111214@mail.aeust.edu.tw
