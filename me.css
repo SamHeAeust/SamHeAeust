@@ -1,0 +1,75 @@
+body{
+    background-color: bisque;
+    background-repeat: repeat-x;
+}
+h1{
+    height: 20px;
+    text-align: center;
+    font-family: 'Limelight', cursive;
+    padding: 20px;
+}
+h2{
+    background-color: burlywood;
+    border-radius: 10px;
+}
+img{
+    border: 1.5px solid burlywood;
+}
+#contents{
+    width: 798px;
+    margin: 40px auto;
+    padding: 40px 80px;
+    border: 1px solid #f6bb9e;
+    background-color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    border-radius: 80px;
+}
+#op{
+    width: 798px;
+    margin: 40px auto;
+    padding: 40px 80px;
+    border: 1px solid #f6bb9e;
+    background-color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    border-radius: 80px;
+}
+a{
+    color: brown;
+}
+a:hover{
+    color: burlywood;
+    text-decoration: none;
+}
+a[href^="https:"]::after{
+    content: url(img/ico_blank.png);
+    margin-left: 5px;
+    vertical-align: middle;
+}
+a[href^="mailto:"]::after{
+    content: url(img/ico_mail.png);
+    margin-left: 5px;
+    vertical-align: middle;
+}
+#menu li{
+    display: inline-block;
+    width: 180px;
+    margin: 0 10px;
+    text-align: center;
+    padding: 20px;
+}
+#menu a{
+    display: block;
+    padding: 10px;
+    background: rgb(209, 56, 56);
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+}
+#menu a:hover{
+    background: burlywood;
+}
+header , #menu ,footer{
+    text-align: center;
+}
