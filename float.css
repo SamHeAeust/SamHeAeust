@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+}
+header{
+    height: 200px;
+    background-color: #AEFC9F;
+}
+aside{
+    width: 30%;
+    height: 200px;
+    background-color: #D5D989;
+    float: left;
+}
+section{
+    width: 70%;
+    height: 200px;
+    background-color: #F0DFA4;
+    float: left;
+}
+footer{
+    height: 100px;
+    background-color: #D9A86F;
+    clear: both;
+}
+.post{
+    padding: 10px;
+    float: left;
+}

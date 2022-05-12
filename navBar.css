@@ -1,12 +1,9 @@
 body{
-    background-color: bisque;
-    font-family: 'Courier New', Courier, monospace;
-    margin: 0px;    
+    margin: 0px;
 }
 nav{    
     background-color: palevioletred;
     text-align: center;
-    margin: 0px;
 }
 nav ul{
     margin: 0px;
@@ -26,8 +23,3 @@ nav li a:hover{
     color: purple;
     transition: background-color 1.5s linear, color 1.5s ease-in-out;
 }
-section{
-    width: 500px;
-    float: left;
-}
-
